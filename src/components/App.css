@@ -1,0 +1,81 @@
+/* HEADER ====================================================================*/
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+@media (min-width: 600px) {
+
+}*/
+
+.nav-bar {
+  background-color: #202020;
+  top: 0;
+  width: 100vw;
+  height: 45px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  display: flex;
+}
+
+.logo-title {
+  color: #ecf0f1;
+  align-self: center;
+}
+
+.logo-icon {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+li {
+  color: #ecf0f1;
+  display: inline;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 11.5px;
+}
+
+li:hover {
+  background-color: #ecf0f1;
+  color: #202020;
+  cursor: pointer;
+}
+/*============================================================================*/
+
+/* HEADER ====================================================================*/
+.splash-image {
+  display: flex;
+  justify-content: center;
+
+  background-image: url("../assets/cite.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-color: #202020;
+}
+
+.splash-text {
+  position: absolute;
+  align-self: center;
+  flex-basis: 50%;
+
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 700;
+
+  background-color: rgba(32, 32, 32, 0.5);
+  color: #ecf0f1;
+}
