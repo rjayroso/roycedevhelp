@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../assets/logo-small.svg";
 
+// TODO: make the <ul> contain real links
+
 function NavBar() {
   return (
     <div className="nav-bar">

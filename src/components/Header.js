@@ -1,5 +1,4 @@
 import React from "react";
-// import cite from "../assets/cite.jpg";
 
 function Header() {
   return (

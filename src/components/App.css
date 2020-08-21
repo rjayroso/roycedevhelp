@@ -1,9 +1,5 @@
 /* HEADER ====================================================================*/
-/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-@media (min-width: 600px) {
-
-}*/
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 
 .nav-bar {
   background-color: #202020;
@@ -12,7 +8,6 @@
   height: 45px;
   position: fixed;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -32,8 +27,6 @@
 
 ul {
   list-style-type: none;
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 li {
@@ -51,6 +44,10 @@ li:hover {
   color: #202020;
   cursor: pointer;
 }
+
+@media (max-width: 900px) {
+}
+
 /*============================================================================*/
 
 /* HEADER ====================================================================*/
